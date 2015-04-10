@@ -1,11 +1,2 @@
-environment:
-  language: docker
-  language_versions: 1.4.1
-  vars:
-    DOCKER_IMAGE: '<% out<< JOB_NAME.toLowerCase().replaceAll("-","_").replaceAll("^","docker.groupondev.com/") %>'
-
-build:
-  info:
-    - docker --version
-  run:
-    - ./run_tests.sh 2>&1
+run:
+  - 'test'
