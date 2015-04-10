@@ -1,0 +1,16 @@
+application:
+  build: .
+  ports:
+   - "8080"
+
+publish:
+  image: docker.groupondev.com/kgoudeaux/publish:latest
+  volumes:
+   - "/var/run/docker.sock:/var/run/docker.sock:ro"
+  links:
+   - application
+
+test:
+  links:
+   - application
+  build: integration-test/
