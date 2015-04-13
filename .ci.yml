@@ -1,2 +1,3 @@
-run: 'test'
+run:
+  test: 'echo version; /test.sh'
 publish: 'application'

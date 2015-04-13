@@ -14,3 +14,7 @@ test:
   links:
    - application
   build: integration-test/
+
+test2:
+  image: 'centos:centos6'
+  command: echo i ran a test just trust me ok
