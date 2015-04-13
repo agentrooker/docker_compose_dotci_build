@@ -1,3 +1,4 @@
 run:
   test:
+  test2:
 publish: 'application'
