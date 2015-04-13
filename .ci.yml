@@ -1,3 +1,7 @@
 run:
   test:
-publish: 'application'
+  test2:
+plugins:
+  junit:
+    test: '/test.sh'
+
