@@ -2,6 +2,6 @@ run:
   test:
   test2:
 plugins:
-  archive:
+  artifacts:
     test: '/test.sh'
 
