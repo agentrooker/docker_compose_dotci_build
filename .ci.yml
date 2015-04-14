@@ -1,7 +1,7 @@
 run:
-  test: 'echo meow > artifact.txt'
+  test: 'mkdir -p /path/to/artifact.txt ; echo meow > /path/to/artifact.txt'
   test2:
 plugins:
   artifacts:
-    test: 'artifact.txt'
+    test: 'path/to/artifact.txt'
 
