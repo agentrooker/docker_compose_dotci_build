@@ -2,5 +2,5 @@ run:
   test: 'echo meow > artifact.txt'
   test2:
 plugins:
-  artifacts: 'artifact.txt'
+  - artifacts: 'artifact.txt'
 
