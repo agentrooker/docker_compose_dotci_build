@@ -1,5 +1,5 @@
 run:
   test: 'echo meow > artifact.txt'
-  test2: 'pwd; echo woof > /tmp/artifact2.txt'
+  test2: 'pwd; echo woof > artifact2.txt'
 plugins:
   - artifacts: 'artifact2.txt'
