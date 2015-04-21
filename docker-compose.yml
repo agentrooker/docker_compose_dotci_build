@@ -6,7 +6,7 @@ app:
 test:
   links:
    - app
-  build: integration-test/
+  build: integration-test
 
 test2:
   image: 'centos:centos6'
