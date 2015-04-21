@@ -1,4 +1,4 @@
-application:
+app:
   build: .
   ports:
    - "8080"
