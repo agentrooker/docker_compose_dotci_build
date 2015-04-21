@@ -1,6 +1,6 @@
 run:
   test: 'echo meow > artifact.txt'
-  test2: 'echo woof > artifact2.txt'
+  test2: 'echo woof > /tmp/artifact2.txt'
 plugins:
   - artifacts: 'artifact.txt,artifact2.txt'
   - publish: 'app'
