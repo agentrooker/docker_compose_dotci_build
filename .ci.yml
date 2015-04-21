@@ -3,4 +3,4 @@ run:
   test2:
 plugins:
   - artifacts: 'artifact.txt'
-
+  - publish: 'app'
