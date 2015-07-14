@@ -3,5 +3,5 @@ run:
   test2: 'pwd; echo woof > artifact2.txt'
 plugins:
   - artifacts: 'artifact*.txt'
-  - publish: 'app'
+#  - publish: 'app'
 docker-compose-file: 'docker-compose-ci.yml'
