@@ -4,4 +4,3 @@ run:
 plugins:
   - artifacts: 'artifact*.txt'
 #  - publish: 'app'
-docker-compose-file: 'docker-compose-ci.yml'
