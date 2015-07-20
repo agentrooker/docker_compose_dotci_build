@@ -3,4 +3,4 @@ run:
 plugins:
   - artifacts: 'artifact*.txt'
   - publish: 'app'
-docker-compose-filename: foo
+docker-compose-file: foo
