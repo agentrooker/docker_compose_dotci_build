@@ -1,0 +1,13 @@
+app:
+  build: .
+  ports:
+   - "8080"
+
+test:
+  links:
+   - app
+  build: integration-test
+
+test2:
+  image: 'centos:centos6'
+  command: echo i ran a test just trust me ok
