@@ -4,3 +4,4 @@ plugins:
   - artifacts: 'artifact*.txt'
   - publish: 'app'
 docker-compose-file: foo
+docker-registry: docker-releases.groupondev.com
